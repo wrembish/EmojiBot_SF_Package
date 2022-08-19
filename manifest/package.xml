@@ -25,6 +25,7 @@
 		<name>CustomTab</name>
 	</types>
 	<types>
+        <members>Admin</members>
 		<members>Discord Integration</members>
 		<name>Profile</name>
 	</types>

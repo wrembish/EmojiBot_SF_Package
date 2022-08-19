@@ -15,5 +15,16 @@
 * Create a password for the user and login as the user
 * Go to Settings > My Settings > Reset my Security Token
 
+## Importing Conversion Map (Characters and Emojis)
+* open dataloader and log into your org created above with either your admin user, or as the discord integration user you created
+* Click "Insert" and select Characters
+* Select the included Characters.csv in the ImportCsvFiles Directory and click through to the mapping
+* You can either manually create the mapping, or use the included mapping file
+* Finish the import
+* Now select Upsert and the included Emojis.csv
+* Use External_Id__c ad the referenced field for all of the match field selections
+* Use the included Emojis-mapping file for the mapping, or manually create it
+* Finish the Upsert
+
 ## Useful Commands
 * sfdx force:source:deploy -x manifest/package.xml
