@@ -1,0 +1,8 @@
+**/.*
+!.gitignore
+!.forceignore
+
+# Unnecessary Files
+**/config
+**/aura
+**/lwc

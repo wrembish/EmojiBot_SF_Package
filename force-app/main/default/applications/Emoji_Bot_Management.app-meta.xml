@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomApplication xmlns="http://soap.sforce.com/2006/04/metadata">
+    <brand>
+        <headerColor>#0070D2</headerColor>
+        <shouldOverrideOrgTheme>false</shouldOverrideOrgTheme>
+    </brand>
+    <description>App for Managing the Files created/used by EmojiBot</description>
+    <formFactors>Small</formFactors>
+    <formFactors>Large</formFactors>
+    <isNavAutoTempTabsDisabled>false</isNavAutoTempTabsDisabled>
+    <isNavPersonalizationDisabled>true</isNavPersonalizationDisabled>
+    <isNavTabPersistenceDisabled>false</isNavTabPersistenceDisabled>
+    <label>Emoji Bot Management</label>
+    <navType>Console</navType>
+    <tabs>GuildId__c</tabs>
+    <tabs>Character__c</tabs>
+    <tabs>Emoji__c</tabs>
+    <uiType>Lightning</uiType>
+    <utilityBar>Emoji_Bot_Management_UtilityBar</utilityBar>
+    <workspaceConfig>
+        <mappings>
+            <tab>Character__c</tab>
+        </mappings>
+        <mappings>
+            <fieldName>Character__c</fieldName>
+            <tab>Emoji__c</tab>
+        </mappings>
+        <mappings>
+            <tab>GuildId__c</tab>
+        </mappings>
+    </workspaceConfig>
+</CustomApplication>
