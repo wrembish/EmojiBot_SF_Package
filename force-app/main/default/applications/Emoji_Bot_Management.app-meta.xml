@@ -16,7 +16,6 @@
     <tabs>Character__c</tabs>
     <tabs>Emoji__c</tabs>
     <uiType>Lightning</uiType>
-    <utilityBar>Emoji_Bot_Management_UtilityBar</utilityBar>
     <workspaceConfig>
         <mappings>
             <tab>Character__c</tab>
